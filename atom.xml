@@ -6,15 +6,31 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://yoursite.com/"/>
-  <updated>2018-08-09T07:27:50.805Z</updated>
+  <updated>2018-08-09T09:42:22.859Z</updated>
   <id>http://yoursite.com/</id>
   
-  <author>
-    <name>guojinbao</name>
-    
-  </author>
-  
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>The Design and Evolution of C++</title>
+    <link href="http://yoursite.com/2018/08/09/The-Design-and-Evolution-of-C/"/>
+    <id>http://yoursite.com/2018/08/09/The-Design-and-Evolution-of-C/</id>
+    <published>2018-08-09T09:36:17.000Z</published>
+    <updated>2018-08-09T09:42:22.859Z</updated>
+    
+    <content type="html"><![CDATA[<h2 id="一、这本书是C-的发展史，懂英文的看原著，不懂英文的也有翻译版，翻译版也有很多缺陷，建议对照着看。"><a href="#一、这本书是C-的发展史，懂英文的看原著，不懂英文的也有翻译版，翻译版也有很多缺陷，建议对照着看。" class="headerlink" title="一、这本书是C++的发展史，懂英文的看原著，不懂英文的也有翻译版，翻译版也有很多缺陷，建议对照着看。"></a>一、这本书是C++的发展史，懂英文的看原著，不懂英文的也有翻译版，翻译版也有很多缺陷，建议对照着看。</h2><p>以下是读书时的生词记录下来，备用，由于建博客较晚，现在从书的地32页开始。</p><ul><li>allocated :分配</li></ul>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;h2 id=&quot;一、这本书是C-的发展史，懂英文的看原著，不懂英文的也有翻译版，翻译版也有很多缺陷，建议对照着看。&quot;&gt;&lt;a href=&quot;#一、这本书是C-的发展史，懂英文的看原著，不懂英文的也有翻译版，翻译版也有很多缺陷，建议对照着看。&quot; class=&quot;headerlink&quot; t
+      
+    
+    </summary>
+    
+    
+  </entry>
   
   <entry>
     <title>第一篇 开篇</title>
