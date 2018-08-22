@@ -6,19 +6,40 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://yoursite.com/"/>
-  <updated>2018-08-22T02:45:49.239Z</updated>
+  <updated>2018-08-22T03:31:31.853Z</updated>
   <id>http://yoursite.com/</id>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>软件设计架构</title>
+    <link href="http://yoursite.com/2018/08/22/%E8%BD%AF%E4%BB%B6%E8%AE%BE%E8%AE%A1%E6%9E%B6%E6%9E%84/"/>
+    <id>http://yoursite.com/2018/08/22/软件设计架构/</id>
+    <published>2018-08-22T03:21:01.000Z</published>
+    <updated>2018-08-22T03:31:31.853Z</updated>
+    
+    <content type="html"><![CDATA[<h2 id="基于需求建立的软件架构"><a href="#基于需求建立的软件架构" class="headerlink" title="基于需求建立的软件架构"></a>基于需求建立的软件架构</h2><h3 id="项目组织结构"><a href="#项目组织结构" class="headerlink" title="项目组织结构"></a>项目组织结构</h3><ul><li>触摸屏–主板串口–机动设备</li><li>软件：串口接受到指令存入消息队列 使用消息队列进行任务判断分发 信息类直接返回信息 动作类使用二级消息队列进行管理处理分发动作。</li><li>串口接受处理：使用缓存队列处理并发消息；断包使用定时器，根据波特率的大小进行断包时间。</li><li>任务创建：考虑任务启动后所需的堆栈大小，若是浮点量过多，请适当放大栈大小，避免栈溢出，出现诡异的死机、重启现象。</li></ul>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;h2 id=&quot;基于需求建立的软件架构&quot;&gt;&lt;a href=&quot;#基于需求建立的软件架构&quot; class=&quot;headerlink&quot; title=&quot;基于需求建立的软件架构&quot;&gt;&lt;/a&gt;基于需求建立的软件架构&lt;/h2&gt;&lt;h3 id=&quot;项目组织结构&quot;&gt;&lt;a href=&quot;#项目组织结构&quot; cla
+      
+    
+    </summary>
+    
+    
+  </entry>
   
   <entry>
     <title>The Design and Evolution of C++</title>
     <link href="http://yoursite.com/2018/08/09/The-Design-and-Evolution-of-C/"/>
     <id>http://yoursite.com/2018/08/09/The-Design-and-Evolution-of-C/</id>
     <published>2018-08-09T09:36:17.000Z</published>
-    <updated>2018-08-22T02:45:49.239Z</updated>
+    <updated>2018-08-22T03:18:55.231Z</updated>
     
-    <content type="html"><![CDATA[<h2 id="一、这本书是C-的发展史，懂英文的看原著，不懂英文的也有翻译版，翻译版也有很多缺陷，建议对照着看。"><a href="#一、这本书是C-的发展史，懂英文的看原著，不懂英文的也有翻译版，翻译版也有很多缺陷，建议对照着看。" class="headerlink" title="一、这本书是C++的发展史，懂英文的看原著，不懂英文的也有翻译版，翻译版也有很多缺陷，建议对照着看。"></a><em>一、这本书是C++的发展史，懂英文的看原著，不懂英文的也有翻译版，翻译版也有很多缺陷，建议对照着看。</em></h2><p>以下是读书时的生词记录下来，备用，由于建博客较晚，现在从书的地32页开始。</p><ul><li>allocated :分配</li><li>Run-Time efficiency :运行的效率</li><li>variables of class types :类类型变量</li><li>the new operater :new操作</li><li>a major source of inefficiency  :低效率的主要原因</li><li>conjecture :推测</li><li>global and local variables :全局变量和局部变量</li><li>scope ：范围</li></ul>]]></content>
+    <content type="html"><![CDATA[<h2 id="一、这本书是C-的发展史，懂英文的看原著，不懂英文的也有翻译版，翻译版也有很多缺陷，建议对照着看。"><a href="#一、这本书是C-的发展史，懂英文的看原著，不懂英文的也有翻译版，翻译版也有很多缺陷，建议对照着看。" class="headerlink" title="一、这本书是C++的发展史，懂英文的看原著，不懂英文的也有翻译版，翻译版也有很多缺陷，建议对照着看。"></a><em>一、这本书是C++的发展史，懂英文的看原著，不懂英文的也有翻译版，翻译版也有很多缺陷，建议对照着看。</em></h2><p>以下是读书时的生词记录下来，备用，由于建博客较晚，现在从书的地32页开始。</p><ul><li>allocated :分配</li><li>Run-Time efficiency :运行的效率</li><li>variables of class types :类类型变量</li><li>the new operater :new操作</li><li>a major source of inefficiency  :低效率的主要原因</li><li>conjecture :推测</li><li>global and local variables :全局变量和局部变量</li><li>scope ：范围</li><li>inelegant :不雅的</li><li>cramp :束缚</li><li>absence :缺少</li><li>notion :概念</li><li></li></ul>]]></content>
     
     <summary type="html">
     
