@@ -1,15 +1,29 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-  <title>本博客用于嵌入式技术交流，希望找到志同道合的朋友</title>
+  <title>自说自话、活的开心、玩的尽兴！</title>
   
-  <subtitle>语言：C、C++、C#，平台：STM32、AT91，操作系统：ucos、Linux、RT-Thread</subtitle>
+  <subtitle>我就说说</subtitle>
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://yoursite.com/"/>
-  <updated>2018-08-22T03:31:31.853Z</updated>
+  <updated>2018-10-29T08:00:15.112Z</updated>
   <id>http://yoursite.com/</id>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>taobao_link</title>
+    <link href="http://yoursite.com/2018/10/29/taobao-link/"/>
+    <id>http://yoursite.com/2018/10/29/taobao-link/</id>
+    <published>2018-10-29T08:00:14.000Z</published>
+    <updated>2018-10-29T08:00:15.112Z</updated>
+    
+    <summary type="html">
+    
+    </summary>
+    
+    
+  </entry>
   
   <entry>
     <title>软件设计架构</title>
