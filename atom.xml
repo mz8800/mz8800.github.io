@@ -6,67 +6,28 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://yoursite.com/"/>
-  <updated>2018-10-29T08:20:46.326Z</updated>
+  <updated>2019-04-10T06:28:05.886Z</updated>
   <id>http://yoursite.com/</id>
   
   <generator uri="http://hexo.io/">Hexo</generator>
-  
-  <entry>
-    <title></title>
-    <link href="http://yoursite.com/2018/10/29/taobao-link/"/>
-    <id>http://yoursite.com/2018/10/29/taobao-link/</id>
-    <published>2018-10-29T08:00:15.108Z</published>
-    <updated>2018-10-29T08:20:46.326Z</updated>
-    
-    <content type="html"><![CDATA[<head><br><meta name="description" content="免费在线教程"><br><meta name="keywords" content="HTML,CSS,XML,JavaScript"><br><meta name="author" content="runoob"><br><meta charset="UTF-8"><br></head><hr><h2 id="test"><a href="#test" class="headerlink" title="test"></a>test</h2><hr><p>title: taobao_link<br>date: 2018-10-29 16:00:14</p><h2 id="tags"><a href="#tags" class="headerlink" title="tags:"></a>tags:</h2>]]></content>
-    
-    <summary type="html">
-    
-      
-      
-        &lt;head&gt;&lt;br&gt;&lt;meta name=&quot;description&quot; content=&quot;免费在线教程&quot;&gt;&lt;br&gt;&lt;meta name=&quot;keywords&quot; content=&quot;HTML,CSS,XML,JavaScript&quot;&gt;&lt;br&gt;&lt;meta name=&quot;author&quot; cont
-      
-    
-    </summary>
-    
-    
-  </entry>
-  
-  <entry>
-    <title>软件设计架构</title>
-    <link href="http://yoursite.com/2018/08/22/%E8%BD%AF%E4%BB%B6%E8%AE%BE%E8%AE%A1%E6%9E%B6%E6%9E%84/"/>
-    <id>http://yoursite.com/2018/08/22/软件设计架构/</id>
-    <published>2018-08-22T03:21:01.000Z</published>
-    <updated>2018-08-22T03:31:31.853Z</updated>
-    
-    <content type="html"><![CDATA[<h2 id="基于需求建立的软件架构"><a href="#基于需求建立的软件架构" class="headerlink" title="基于需求建立的软件架构"></a>基于需求建立的软件架构</h2><h3 id="项目组织结构"><a href="#项目组织结构" class="headerlink" title="项目组织结构"></a>项目组织结构</h3><ul><li>触摸屏–主板串口–机动设备</li><li>软件：串口接受到指令存入消息队列 使用消息队列进行任务判断分发 信息类直接返回信息 动作类使用二级消息队列进行管理处理分发动作。</li><li>串口接受处理：使用缓存队列处理并发消息；断包使用定时器，根据波特率的大小进行断包时间。</li><li>任务创建：考虑任务启动后所需的堆栈大小，若是浮点量过多，请适当放大栈大小，避免栈溢出，出现诡异的死机、重启现象。</li></ul>]]></content>
-    
-    <summary type="html">
-    
-      
-      
-        &lt;h2 id=&quot;基于需求建立的软件架构&quot;&gt;&lt;a href=&quot;#基于需求建立的软件架构&quot; class=&quot;headerlink&quot; title=&quot;基于需求建立的软件架构&quot;&gt;&lt;/a&gt;基于需求建立的软件架构&lt;/h2&gt;&lt;h3 id=&quot;项目组织结构&quot;&gt;&lt;a href=&quot;#项目组织结构&quot; cla
-      
-    
-    </summary>
-    
-    
-  </entry>
   
   <entry>
     <title>The Design and Evolution of C++</title>
     <link href="http://yoursite.com/2018/08/09/The-Design-and-Evolution-of-C/"/>
     <id>http://yoursite.com/2018/08/09/The-Design-and-Evolution-of-C/</id>
     <published>2018-08-09T09:36:17.000Z</published>
-    <updated>2018-08-31T02:34:16.127Z</updated>
+    <updated>2019-04-10T06:28:05.886Z</updated>
     
-    <content type="html"><![CDATA[<h2 id="一、这本书是C-的发展史，懂英文的看原著，不懂英文的也有翻译版，翻译版也有很多缺陷，建议对照着看。"><a href="#一、这本书是C-的发展史，懂英文的看原著，不懂英文的也有翻译版，翻译版也有很多缺陷，建议对照着看。" class="headerlink" title="一、这本书是C++的发展史，懂英文的看原著，不懂英文的也有翻译版，翻译版也有很多缺陷，建议对照着看。"></a><em>一、这本书是C++的发展史，懂英文的看原著，不懂英文的也有翻译版，翻译版也有很多缺陷，建议对照着看。</em></h2><p>以下是读书时的生词记录下来，备用，由于建博客较晚，现在从书的地32页开始。</p><ul><li>allocated :分配</li><li>Run-Time efficiency :运行的效率</li><li>variables of class types :类类型变量</li><li>the new operater :new操作</li><li>a major source of inefficiency  :低效率的主要原因</li><li>conjecture :推测</li><li>global and local variables :全局变量和局部变量</li><li>scope ：范围</li><li>inelegant :不雅的</li><li>cramp :束缚</li><li>absence :缺少</li><li>notion :概念</li><li>user-defined types :用户定义类型</li><li>built-in types ：内部类型</li><li>associate tool :相关的工具</li><li>initial :最初的</li></ul><p>C++的设计理念（及概念）<br>W3cSchool多态解释：<br>采用多态性为每个类指定表现行为。多态性形成由父类和它们的子类组成的一个树型结构。<br>在这个树中的每个子类可以接收一个或多个具有相同名字的消息。当一个消息被这个树中一个类的一个对象接收时，这个对象动态地决定给予子类对象的消息的某种用法。</p><p>多态性的这一特性允许使用高级抽象。</p><p>继承性和多态性的组合，可以轻易地生成一系列虽然类似但独一无二的对象。由于继承性，这些对象共享许多相似的特征。由于多态性，一个对象可有独特的表现方式，而另一个对象有另一种表现方式。</p><p>我认为多态是个变色龙，有很多颜色，每个颜色代表某种保护动作。子代继承了更多的颜色，在新环境中学习了新的保护色。</p><p>W3cSchool工作原理解释：<br>C++语言的程序因为要体现高性能，所以都是编译型的。但其开发环境，为了方便测试，将调试环境做成解释型的。<br>即开发过程中，以解释型的逐条语句执行方式来进行调试，以编译型的脱离开发环境而启动运行的方式来生成程序最终的执行代码。</p><p>生成程序是指将源码（C++语句）转换成一个可以运行的应用程序的过程。如果程序的编写是正确的，那么通常只需按一个功能键，即可搞定这个过程。该过程实际上分成两个步骤。</p><p>第一步是对程序进行编译，这需要用到编译器（compiler）。<br>编译器将C++语句转换成机器码(也称为目标码)；如果这个步骤成功，下一步就是对程序进行链接，这需要用到链接器（linker）。<br>链接器将编译获得机器码与C++库中的代码进行合并。C++库包含了执行某些常见任务的函数（“函数”是子程序的另一种称呼）。<br>例如，一个C++库中包含标准的平方根函数sqrt，所以不必亲自计算平方根。C++库中还包含一些子程序，它们把数据发送到显示器，并知道如何读写硬盘上的数据文件。</p>]]></content>
+    <content type="html"><![CDATA[<ul><li>这本书是C++的发展史，懂英文的看原著，不懂英文的也有翻译版，翻译版也有很多缺陷，建议对照着看。*<br>以下是读书时的生词记录下来，备用，由于建博客较晚，现在从书的地32页开始。</li><li>allocated :分配</li><li>Run-Time efficiency :运行的效率</li><li>variables of class types :类类型变量</li><li>the new operater :new操作</li><li>a major source of inefficiency  :低效率的主要原因</li><li>conjecture :推测</li><li>global and local variables :全局变量和局部变量</li><li>scope ：范围</li><li>inelegant :不雅的</li><li>cramp :束缚</li><li>absence :缺少</li><li>notion :概念</li><li>user-defined types :用户定义类型</li><li>built-in types ：内部类型</li><li>associate tool :相关的工具</li><li>initial :最初的</li></ul><p>C++的设计理念（及概念）<br>W3cSchool多态解释：<br>采用多态性为每个类指定表现行为。多态性形成由父类和它们的子类组成的一个树型结构。<br>在这个树中的每个子类可以接收一个或多个具有相同名字的消息。当一个消息被这个树中一个类的一个对象接收时，这个对象动态地决定给予子类对象的消息的某种用法。</p><p>多态性的这一特性允许使用高级抽象。</p><p>继承性和多态性的组合，可以轻易地生成一系列虽然类似但独一无二的对象。由于继承性，这些对象共享许多相似的特征。由于多态性，一个对象可有独特的表现方式，而另一个对象有另一种表现方式。</p><p>我认为多态是个变色龙，有很多颜色，每个颜色代表某种保护动作。子代继承了更多的颜色，在新环境中学习了新的保护色。</p><p>W3cSchool工作原理解释：<br>C++语言的程序因为要体现高性能，所以都是编译型的。但其开发环境，为了方便测试，将调试环境做成解释型的。<br>即开发过程中，以解释型的逐条语句执行方式来进行调试，以编译型的脱离开发环境而启动运行的方式来生成程序最终的执行代码。</p><p>生成程序是指将源码（C++语句）转换成一个可以运行的应用程序的过程。如果程序的编写是正确的，那么通常只需按一个功能键，即可搞定这个过程。该过程实际上分成两个步骤。</p><p>第一步是对程序进行编译，这需要用到编译器（compiler）。<br>编译器将C++语句转换成机器码(也称为目标码)；如果这个步骤成功，下一步就是对程序进行链接，这需要用到链接器（linker）。<br>链接器将编译获得机器码与C++库中的代码进行合并。C++库包含了执行某些常见任务的函数（“函数”是子程序的另一种称呼）。<br>例如，一个C++库中包含标准的平方根函数sqrt，所以不必亲自计算平方根。C++库中还包含一些子程序，它们把数据发送到显示器，并知道如何读写硬盘上的数据文件。</p>]]></content>
     
     <summary type="html">
     
       
       
-        &lt;h2 id=&quot;一、这本书是C-的发展史，懂英文的看原著，不懂英文的也有翻译版，翻译版也有很多缺陷，建议对照着看。&quot;&gt;&lt;a href=&quot;#一、这本书是C-的发展史，懂英文的看原著，不懂英文的也有翻译版，翻译版也有很多缺陷，建议对照着看。&quot; class=&quot;headerlink&quot; t
+        &lt;ul&gt;
+&lt;li&gt;这本书是C++的发展史，懂英文的看原著，不懂英文的也有翻译版，翻译版也有很多缺陷，建议对照着看。*&lt;br&gt;以下是读书时的生词记录下来，备用，由于建博客较晚，现在从书的地32页开始。&lt;/li&gt;
+&lt;li&gt;allocated :分配&lt;/li&gt;
+&lt;li&gt;Run-Time
       
     
     </summary>
@@ -75,19 +36,27 @@
   </entry>
   
   <entry>
-    <title>第一篇 开篇</title>
+    <title>开篇</title>
     <link href="http://yoursite.com/2018/08/08/hello-world/"/>
     <id>http://yoursite.com/2018/08/08/hello-world/</id>
     <published>2018-08-08T07:24:34.272Z</published>
-    <updated>2018-08-09T07:27:50.805Z</updated>
+    <updated>2019-04-10T06:27:42.370Z</updated>
     
-    <content type="html"><![CDATA[<h2 id="一、刚建立的博客，真是苍白的很呐"><a href="#一、刚建立的博客，真是苍白的很呐" class="headerlink" title="一、刚建立的博客，真是苍白的很呐"></a><em>一、刚建立的博客，真是苍白的很呐</em></h2><p>首先就遇到问题，有空余时间的多多问问度娘啊。</p><ul><li>问题【一】#是什么意思</li><li><p>答案：#是标题的意思，属于语法。</p></li><li><p>问题【二】”<code>`</code>“是什么意思</p></li><li>答案：应该叫做指令前导符号，后跟指令。</li></ul><p>More info: <a href="https://hexo.io/docs/writing.html" target="_blank" rel="noopener">Writing</a></p>]]></content>
+    <content type="html"><![CDATA[<ul><li>刚建立的博客，真是苍白的很呐*</li><li><p>首先就遇到问题，有空余时间的多多问问度娘啊。</p></li><li><p>问题【一】#是什么意思</p></li><li><p>答案：#是标题的意思，属于语法。</p></li><li><p>问题【二】”<code>`</code>“是什么意思</p></li><li>答案：应该叫做指令前导符号，后跟指令。</li></ul><p>More info: <a href="https://hexo.io/docs/writing.html" target="_blank" rel="noopener">Writing</a></p>]]></content>
     
     <summary type="html">
     
       
       
-        &lt;h2 id=&quot;一、刚建立的博客，真是苍白的很呐&quot;&gt;&lt;a href=&quot;#一、刚建立的博客，真是苍白的很呐&quot; class=&quot;headerlink&quot; title=&quot;一、刚建立的博客，真是苍白的很呐&quot;&gt;&lt;/a&gt;&lt;em&gt;一、刚建立的博客，真是苍白的很呐&lt;/em&gt;&lt;/h2&gt;&lt;p&gt;首先就遇到
+        &lt;ul&gt;
+&lt;li&gt;刚建立的博客，真是苍白的很呐*&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;首先就遇到问题，有空余时间的多多问问度娘啊。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;问题【一】#是什么意思&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;答案：#是标题的意思，属于语法。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;
       
     
     </summary>
