@@ -1,0 +1,5 @@
+#EXTM3U
+
+http://103.178.56.32/uploads/data/song/tishi.jpg
+#EXTINF:-1 tvg-name="CCTV1" tvg-logo="https://epg.112114.xyz/logo/CCTV1.png" group-title="央视",CCTV1
+http://iptva.cn/api/M3u8/Index?id=597&card=24451788382
